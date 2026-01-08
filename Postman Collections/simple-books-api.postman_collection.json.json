@@ -28,25 +28,23 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://simple-books-api.click/status?type=fiction&limit=8",
+					"raw": "https://simple-books-api.click/books?type=fiction&limit=8",
 					"protocol": "https",
 					"host": [
 						"simple-books-api",
 						"click"
 					],
 					"path": [
-						"status"
+						"books"
 					],
 					"query": [
 						{
 							"key": "type",
-							"value": "fiction",
-							"type": "text"
+							"value": "fiction"
 						},
 						{
 							"key": "limit",
-							"value": "8",
-							"type": "text"
+							"value": "8"
 						}
 					]
 				}

@@ -26,7 +26,30 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.click/status?type=fiction&limit=8",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"click"
+					],
+					"path": [
+						"status"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "fiction",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "8",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
